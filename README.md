@@ -1,5 +1,5 @@
 # true_random_number
-==An attempt to create a true random number depending on the unpredicted behaviour of the CPU by running a competition between two threads.
+An attempt to create a true random number depending on the unpredicted behaviour of the CPU by running a competition between two threads.
 
 The idea is as follows:
 1. Create a 32-bit array to represent the generated random number in binary.
@@ -10,6 +10,9 @@ The idea is as follows:
 6. Convert the generated binary to decimal which plays as a seed to generate the final random number.
 
 Note that this approach heavily depends on the OS, Linux in particular and not suitable for other OS. Also it depends on the number of Cores andthe System Architecture.
+
 More research and investigation is required.
+
+All Rights Reserved 2017.
 
 ![ALT TEXT](https://github.com/John-Almardeny/true_random_number/blob/master/true_random.gif?raw=true) 
